@@ -8,7 +8,7 @@ COPY index.html /usr/share/nginx/html/index.html
 
 
 # Expose port 80 (informational for users of the image)
-EXPOSE 80
+EXPOSE 8000
 
 
 # Nginx image already sets a default CMD to run nginx in the foreground
