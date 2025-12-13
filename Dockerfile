@@ -4,7 +4,7 @@ FROM nginx:alpine
 
 # Remove default index and copy our static site
 RUN rm -rf /usr/share/nginx/html/*
-COPY index.html /usr/share/nginx/html/index.html
+COPY index.html /usr/share/nginx/html/
 
 
 # Expose port 80 (informational for users of the image)
